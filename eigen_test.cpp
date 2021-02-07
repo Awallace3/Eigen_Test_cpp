@@ -1,8 +1,9 @@
-// sudo chown -R $(whoami) /usr/local/* // if user write permissions issues with brew install
+// Run the commands in 1. and 3. through the terminal
 // 1. brew install eigen
+//      sudo chown -R $(whoami) /usr/local/* // if user write permissions issues with brew install
 // 2. note where eigen installed... Mine installed to the location below
 //      /usr/local/include
-// 3. include the path to eigen when you compile with g++ 
+// 3. include the path to eigen when you compile with g++ and run the file through the terminal with ./eigen_test.out
 //      g++ -I /path/to/eigen/ my_program.cpp -o my_program 
 //      Mine was the following command for this file...
 //      g++ -I /usr/local/include/eigen3 eigen_test.cpp -o eigen_test.out
